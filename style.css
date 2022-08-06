@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+  width: 1440px;
+  height: 1930px;
+  margin: 0 auto;
+  color: #4E4958;
+}
+
+body::before {
+  background: #535971;
+  width: 1440px;
+  height: 436px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+
+}
+
+header {
+  width: 417px;
+  color: white;
+  margin-top: 140px;
+
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  line-height: 60px;
+  font-size: 48px;
+  margin-bottom: 18px;
+
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 58px;
+
+}
+
+form {
+  background: white;
+  width: 750px;
+  height: 1084px;
+  border-radius: 20px;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+
+
+}
+
+legend {
+
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+
+}
+
+
+hr {
+  border: 1px solid #E6E6F0;
+  width: 622px;
+  margin-right: 64px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+
+}
+
+form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+}
+
+form fieldset .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+
+
+}
+
+form fieldset .input-wrapper input {
+  height: 56px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC;
+
+}
+
+span {
+  color: #C1BCCC;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  gap:22px;
+}
+
+footer {
+  width: 750px;
+  height: 160px;
+  background: #535971;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 20px 20px;
+}
+
+button {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  border-radius: 20px;
+
+  background: #FF5374;
+  width: 608px;
+  height: 55.65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.larger{
+  width: 662px;
+}
+.medium{
+  width: 300px;
+}
+
+.short{
+  width: 160px;
+}
+
+fieldset legend .horario{
+
+  font-size: 20px;
+  margin-bottom: 11px;
+
+}
