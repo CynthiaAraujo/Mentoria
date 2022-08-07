@@ -15,7 +15,7 @@ body {
 
 body::before {
   background: #535971;
-  width: 1440px;
+  width: 100%;
   height: 436px;
   content: '';
   position: absolute;
@@ -64,7 +64,7 @@ form {
 
 }
 
-legend {
+h3 {
 
   font-family: 'Staatliches', cursive;
   font-size: 24px;
@@ -84,29 +84,33 @@ hr {
 
 }
 
-form fieldset {
+form .fieldset {
   border: none;
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
 
+
+
 }
 
-form fieldset .input-wrapper {
+form .fieldset .input-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
+  width: 100%;
+
 
 
 }
 
-form fieldset .input-wrapper input {
+form .fieldset .input-wrapper input {
   height: 56px;
   box-sizing: border-box;
   border-radius: 8px;
   border: 1px solid #E6E6F0;
   background: #FAFAFC;
+  padding: 10px;
 
 }
 
@@ -116,8 +120,9 @@ span {
 
 .name {
   display: flex;
-  flex-direction: row;
-  gap:22px;
+  width: 100%;
+  gap: 22px;
+
 }
 
 footer {
@@ -147,18 +152,7 @@ button {
   border: none;
 }
 
-.larger{
-  width: 662px;
-}
-.medium{
-  width: 300px;
-}
-
-.short{
-  width: 160px;
-}
-
-fieldset legend .horario{
+h4 {
 
   font-size: 20px;
   margin-bottom: 11px;
