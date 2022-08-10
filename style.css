@@ -158,3 +158,13 @@ h4 {
   margin-bottom: 11px;
 
 }
+
+.col-3{
+  display: flex;
+  gap: 20px;
+}
+
+.col-3 > div:nth-child(1){
+  width: 100% ;
+  /* padding: px; */
+}
